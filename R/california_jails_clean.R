@@ -1,5 +1,5 @@
 source('C:/Users/user/Dropbox/R_project/crime_data/R/utils/global_utils.R')
-source('C:/Users/user/Dropbox/R_project/california_jails/california_jails_utils.R')
+source('C:/Users/user/Dropbox/R_project/california_jails/R/california_jails_utils.R')
 
 
 jails <- clean_jails()

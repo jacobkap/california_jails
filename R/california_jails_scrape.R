@@ -1,6 +1,6 @@
 library(RSelenium)
 library(rvest)
-source('C:/Users/user/Dropbox/R_project/california_jails/california_jails_utils.R')
+source('C:/Users/user/Dropbox/R_project/california_jails/R/california_jails_utils.R')
 rD <- start_rsDriver(extraCapabilities = extraCapabilities)
 remDr <- rD$client
 

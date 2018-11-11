@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1541956724746.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "C012B9E1",
+    "lastKnownWriteTime" : 1541955016,
+    "last_content_update" : 1541955016,
+    "path" : "C:/Users/user/Dropbox/R_project/california_jails/R/california_jails_utils.R",
+    "project_path" : "R/california_jails_utils.R",
+    "properties" : {
+        "cursorPosition" : "5,25",
+        "scrollLine" : "0"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 11,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
