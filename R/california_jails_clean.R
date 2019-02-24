@@ -1,4 +1,3 @@
-source('C:/Users/user/Dropbox/R_project/crime_data/R/utils/global_utils.R')
 source('C:/Users/user/Dropbox/R_project/california_jails/R/california_jails_utils.R')
 
 
@@ -6,6 +5,11 @@ jails <- clean_jails()
 california_jails_facility_monthly <- jails[[1]]
 california_jails_county_monthly   <- jails[[2]]
 california_jails_county_quarterly <- jails[[3]]
+
+summary(california_jails_facility_monthly)
+summary(california_jails_county_monthly)
+summary(california_jails_county_quarterly)
+
 setwd("C:/Users/user/Dropbox/R_project/california_jails/clean_data")
 save_files(california_jails_facility_monthly,
            "_1995_2018",
@@ -42,11 +46,12 @@ clean_jails <- function() {
       dplyr::mutate_all(fix_abbreviations) %>%
       dplyr::mutate_at(4:9, parse_number) %>%
       dplyr::mutate(jurisdiction = gsub("Dept.$", "Department",
-                                        jurisdiction)) %>%
+                                        jurisdiction),
+                    month = str_replace_all(month, month_fix)) %>%
       dplyr::bind_rows(facility)
 
     num_cols <- c(4:14, 16:34)
-    if (i >= 8) num_cols <- c(4:14, 16:39)
+    if (i >= 8) num_cols <- c(4:14, 16:36)
     county_monthly <-
       read_html(county_monthly_files[i]) %>%
       html_node("table") %>%
@@ -59,7 +64,8 @@ clean_jails <- function() {
                                         jurisdiction),
                     day_of_highest_count = lubridate::mdy(day_of_highest_count),
                     day_of_highest_count = as.character(day_of_highest_count),
-                    month                = parse_number(month)) %>%
+                    month                = parse_number(month),
+                    month = str_replace_all(month, month_fix)) %>%
       dplyr::bind_rows(county_monthly)
 
     county_quarterly <-
@@ -81,20 +87,43 @@ clean_jails <- function() {
   facility <-
     facility %>%
     right_join(county_match) %>%
+    dplyr::select(jurisdiction,
+                  year,
+                  month,
+                  census_county_name,
+                  fips_state_code,
+                  fips_county_code,
+                  fips_state_county_code,
+                  everything()) %>%
     dplyr::arrange(desc(year),
                    desc(month),
                    census_county_name)
   county_monthly <-
     county_monthly %>%
     right_join(county_match) %>%
+    dplyr::select(jurisdiction,
+                  year,
+                  month,
+                  census_county_name,
+                  fips_state_code,
+                  fips_county_code,
+                  fips_state_county_code,
+                  everything()) %>%
     dplyr::arrange(desc(year),
                    desc(month),
                    census_county_name)
 
   county_quarterly <-
     county_quarterly %>%
-    dplyr::mutate_at(3:14, parse_number) %>%
     right_join(county_match) %>%
+    dplyr::select(jurisdiction,
+                  year,
+                  quarter,
+                  census_county_name,
+                  fips_state_code,
+                  fips_county_code,
+                  fips_state_county_code,
+                  everything()) %>%
     dplyr::arrange(desc(year),
                    desc(quarter),
                    census_county_name)

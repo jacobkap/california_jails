@@ -1,5 +1,3 @@
-library(RSelenium)
-library(rvest)
 source('C:/Users/user/Dropbox/R_project/california_jails/R/california_jails_utils.R')
 rD <- start_rsDriver(extraCapabilities = extraCapabilities)
 remDr <- rD$client
@@ -60,7 +58,7 @@ get_jails <- function(type, type_number, old_data = FALSE) {
         month_from$elements[[1]]$clickElement()
       }
       if (years$value[year] == "2018") {
-        month_to$elements[[length(month_to$elements)-6]]$clickElement()
+        month_to$elements[[length(month_to$elements)-3]]$clickElement()
       }
     } else {
       # Set ending quarter to quarter 4
@@ -79,7 +77,7 @@ get_jails <- function(type, type_number, old_data = FALSE) {
         quarter_from$elements[[1]]$clickElement()
       }
       if (years$value[year] == "2018") {
-        quarter_to$elements[[2]]$clickElement()
+        quarter_to$elements[[3]]$clickElement()
       }
     }
 
@@ -102,7 +100,7 @@ get_jails <- function(type, type_number, old_data = FALSE) {
     # Save as Excel
     selenium_clicker(remDr, using = "css",
                      value = 'body > form > table:nth-child(4) > tbody > tr > td:nth-child(4) > div > font > font > font:nth-child(3) > font > font > input[type="submit"]')
-    Sys.sleep(25)
+    Sys.sleep(60)
 
     setwd("C:/Users/user/Dropbox/R_project/california_jails/raw_data")
     files <- list.files(pattern = "QueryResult.xls")
