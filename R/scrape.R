@@ -1,4 +1,4 @@
-source('C:/Users/user/Dropbox/R_project/california_jails/R/california_jails_utils.R')
+source(here::here('R/utils.R'))
 rD <- start_rsDriver(extraCapabilities = extraCapabilities)
 remDr <- rD$client
 
@@ -102,7 +102,8 @@ get_jails <- function(type, type_number, old_data = FALSE) {
                      value = 'body > form > table:nth-child(4) > tbody > tr > td:nth-child(4) > div > font > font > font:nth-child(3) > font > font > input[type="submit"]')
     Sys.sleep(60)
 
-    setwd("C:/Users/user/Dropbox/R_project/california_jails/raw_data")
+    setwd(here::here("raw_data"))
+
     files <- list.files(pattern = "QueryResult.xls")
     file.rename(files, paste0(type, "_", years$value[year], ".xls"))
 
