@@ -58,7 +58,7 @@ get_jails <- function(type, type_number, old_data = FALSE) {
         month_from$elements[[1]]$clickElement()
       }
       if (years$value[year] == "2018") {
-        month_to$elements[[length(month_to$elements)-3]]$clickElement()
+        month_to$elements[[12]]$clickElement()
       }
     } else {
       # Set ending quarter to quarter 4
@@ -77,7 +77,7 @@ get_jails <- function(type, type_number, old_data = FALSE) {
         quarter_from$elements[[1]]$clickElement()
       }
       if (years$value[year] == "2018") {
-        quarter_to$elements[[3]]$clickElement()
+        quarter_to$elements[[4]]$clickElement()
       }
     }
 

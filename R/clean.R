@@ -87,9 +87,11 @@ clean_jails <- function() {
   facility <-
     facility %>%
     right_join(county_match) %>%
+    dplyr::mutate(date = lubridate::ymd(paste(year, month, "1"))) %>%
     dplyr::select(jurisdiction,
                   year,
                   month,
+                  date,
                   census_county_name,
                   fips_state_code,
                   fips_county_code,
@@ -101,16 +103,17 @@ clean_jails <- function() {
   county_monthly <-
     county_monthly %>%
     right_join(county_match) %>%
+    dplyr::mutate(date = lubridate::ymd(paste(year, month, "1"))) %>%
     dplyr::select(jurisdiction,
                   year,
                   month,
+                  date,
                   census_county_name,
                   fips_state_code,
                   fips_county_code,
                   fips_state_county_code,
                   everything()) %>%
-    dplyr::arrange(desc(year),
-                   desc(month),
+    dplyr::arrange(desc(date),
                    census_county_name)
 
   county_quarterly <-

@@ -1,4 +1,61 @@
 jurisdiction,year,quarter,census_county_name,fips_state_code,fips_county_code,fips_state_county_code,num_inmate_assaults_on_staff,money_spent_medication_last_qtr,money_spent_psych_med_last_qtr,avg_length_stay_all_releases,avg_length_stay_pretrial_release,avg_length_stay_sentnced_release,num_inmate_are_3rd_striker,num_inmate_are_2nd_striker,num_unserved_felony_warrants,num_unserved_misdemean_warrants,percent_inmates_illegal_alien
+Alameda Sheriff's Department,2018,4,Alameda County,06,001,06001,17,355224,250130,25,20,58,NA,NA,NA,NA,NA
+Amador Sheriff's Department,2018,4,Amador County,06,005,06005,0,32867,12289,33.2,3.2,71.8,NA,NA,NA,NA,NA
+Butte Sheriff's Department,2018,4,Butte County,06,007,06007,NA,67658,12923,11,5,30,NA,NA,NA,NA,NA
+Calaveras Sheriff's Department,2018,4,Calaveras County,06,009,06009,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Colusa Sheriff's Department,2018,4,Colusa County,06,011,06011,0,5106,3053,22.830000000000002,8.28,61.8,NA,NA,NA,NA,NA
+Contra Costa Sheriff's Department,2018,4,Contra Costa County,06,013,06013,7,359103,236504,NA,NA,NA,NA,NA,NA,NA,NA
+Del Norte Sheriff's Department,2018,4,Del Norte County,06,015,06015,1,17744,9124,9.17,2.9,32.6,NA,NA,NA,NA,NA
+El Dorado Sheriff's Department,2018,4,El Dorado County,06,017,06017,0,10304,4764,26,10.6,65.6,NA,NA,NA,NA,NA
+Fresno Sheriff's Department,2018,4,Fresno County,06,019,06019,9,370364,47942,36.5,19.9,28.5,NA,NA,NA,NA,NA
+Glenn Sheriff's Department,2018,4,Glenn County,06,021,06021,1,4961,485,NA,NA,NA,NA,NA,NA,NA,NA
+Humboldt Sheriff's Department,2018,4,Humboldt County,06,023,06023,2,37079,21359,16.24,9.38,42.67,NA,NA,NA,NA,NA
+Imperial Sheriff's Department,2018,4,Imperial County,06,025,06025,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Inyo Sheriff's Department,2018,4,Inyo County,06,027,06027,2,50906,15991,199,126,35,NA,NA,NA,NA,NA
+Kern Sheriff's Department,2018,4,Kern County,06,029,06029,7,454894,103550,25,15,39,NA,NA,NA,NA,NA
+Kings Sheriff's Department,2018,4,Kings County,06,031,06031,9,65534,16438,30,9,75,NA,NA,NA,NA,NA
+Lake Sheriff's Department,2018,4,Lake County,06,033,06033,NA,29200,2808,NA,NA,NA,NA,NA,NA,NA,NA
+Lassen Sheriff's Department,2018,4,Lassen County,06,035,06035,0,8641,1360,18.17,7.7700000000000005,62.32,NA,NA,NA,NA,NA
+Los Angeles Sheriff's Department,2018,4,Los Angeles County,06,037,06037,NA,8564412,2671923,59,5,61,NA,NA,NA,NA,NA
+Madera Corrections Department,2018,4,Madera County,06,039,06039,2,35914,1577,42,5,69,NA,NA,NA,NA,NA
+Marin Sheriff's Department,2018,4,Marin County,06,041,06041,NA,42775,9400,18,12,45,NA,NA,NA,NA,NA
+Mariposa Sheriff's Department,2018,4,Mariposa County,06,043,06043,0,6895,3074,NA,NA,NA,NA,NA,NA,NA,NA
+Mendocino Sheriff's Department,2018,4,Mendocino County,06,045,06045,6,41457,8021,NA,NA,NA,NA,NA,NA,NA,NA
+Merced Sheriff's Department,2018,4,Merced County,06,047,06047,8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Modoc Sheriff's Department,2018,4,Modoc County,06,049,06049,2,10652,7989,126,101,33,NA,NA,NA,NA,NA
+Mono Sheriff's Department,2018,4,Mono County,06,051,06051,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Monterey Sheriff's Department,2018,4,Monterey County,06,053,06053,1,62450,20695,28.6,21.7,38.7,NA,NA,NA,NA,NA
+Napa Corrections Department,2018,4,Napa County,06,055,06055,6,37044,10884,22,25,26,NA,NA,NA,NA,NA
+Nevada Sheriff's Department,2018,4,Nevada County,06,057,06057,NA,23937,10214,24,NA,NA,NA,NA,NA,NA,NA
+Orange Sheriff's Department,2018,4,Orange County,06,059,06059,19,1230269,200778,42.8,1.4,47.2,NA,NA,NA,NA,NA
+Placer Sheriff's Department,2018,4,Placer County,06,061,06061,4,98095,30865,28.959999999999997,16.29,69.75,NA,NA,NA,NA,NA
+Plumas Sheriff's Department,2018,4,Plumas County,06,063,06063,3,15085,3389,13,11,19,NA,NA,NA,NA,NA
+Riverside Sheriff's Department,2018,4,Riverside County,06,065,06065,9,602957,388938,29,NA,NA,NA,NA,NA,NA,NA
+Sacramento Sheriff's Department,2018,4,Sacramento County,06,067,06067,45,1367587,369677,35,24,63,NA,NA,NA,NA,NA
+San Benito Sheriff's Department,2018,4,San Benito County,06,069,06069,0,18363,11041,20.2,10.4,49.5,NA,NA,NA,NA,NA
+San Bernardino Sheriff's Department,2018,4,San Bernardino County,06,071,06071,21,583594,155758,130,97,137,NA,NA,NA,NA,NA
+San Diego Sheriff's Department,2018,4,San Diego County,06,073,06073,22,1002235,141282,25,12.6,73.5,NA,NA,NA,NA,NA
+San Diego Work Furlough,2018,4,San Diego County,06,073,06073,NA,NA,NA,71.86,50.839999999999996,72.85,NA,NA,NA,NA,NA
+San Francisco Sheriff's Department,2018,4,San Francisco County,06,075,06075,16,954889,271228,24,10,79,NA,NA,NA,NA,NA
+San Joaquin Sheriff's Department,2018,4,San Joaquin County,06,077,06077,NA,NA,NA,42,5,40,NA,NA,NA,NA,NA
+San Luis Obispo Sheriff's Department,2018,4,San Luis Obispo County,06,079,06079,2,102066,30384,NA,NA,NA,NA,NA,NA,NA,NA
+San Mateo Sheriff's Department,2018,4,San Mateo County,06,081,06081,9,358922,NA,27,6,73,NA,NA,NA,NA,NA
+Santa Barbara Sheriff's Department,2018,4,Santa Barbara County,06,083,06083,6,85264,NA,29,20,53,NA,NA,NA,NA,NA
+Santa Clara Corrections Department,2018,4,Santa Clara County,06,085,06085,13,313834,187168,33,47,104,NA,NA,NA,NA,NA
+Santa Cruz Sheriff's Department,2018,4,Santa Cruz County,06,087,06087,9,97963,14365,NA,NA,NA,NA,NA,NA,NA,NA
+Shasta Sheriff's Department,2018,4,Shasta County,06,089,06089,NA,34109,16577,NA,NA,NA,NA,NA,NA,NA,NA
+Siskiyou Sheriff's Department,2018,4,Siskiyou County,06,093,06093,1,55920,20795,40,5,35,NA,NA,NA,NA,NA
+Solano Sheriff's Department,2018,4,Solano County,06,095,06095,18,131033,22937,18.6,13.8,77.4,NA,NA,NA,NA,NA
+Sonoma Sheriff's Department,2018,4,Sonoma County,06,097,06097,4,187133,73569,31,7,55,NA,NA,NA,NA,NA
+Stanislaus Sheriff's Department,2018,4,Stanislaus County,06,099,06099,4,95477,14365,25,8,79,NA,NA,NA,NA,NA
+Sutter Sheriff's Department,2018,4,Sutter County,06,101,06101,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Tehama Sheriff's Department,2018,4,Tehama County,06,103,06103,4,27490,12826,23,NA,39,NA,NA,NA,NA,NA
+Trinity Sheriff's Department,2018,4,Trinity County,06,105,06105,3,NA,NA,128,56,10,NA,NA,NA,NA,NA
+Tulare Sheriff's Department,2018,4,Tulare County,06,107,06107,2,156189,39220,39,25,80,NA,NA,NA,NA,NA
+Tuolumne Sheriff's Department,2018,4,Tuolumne County,06,109,06109,0,17986,1463,NA,NA,NA,NA,NA,NA,NA,NA
+Ventura Sheriff's Department,2018,4,Ventura County,06,111,06111,17,172432,34464,NA,NA,NA,NA,NA,NA,NA,NA
+Yolo Sheriff's Department,2018,4,Yolo County,06,113,06113,9,34193,25428,NA,NA,NA,NA,NA,NA,NA,NA
+Yuba Sheriff's Department,2018,4,Yuba County,06,115,06115,3,61281,5313,NA,NA,NA,NA,NA,NA,NA,NA
 Alameda Sheriff's Department,2018,3,Alameda County,06,001,06001,11,330881,210321,23,17,61,NA,NA,NA,NA,NA
 Amador Sheriff's Department,2018,3,Amador County,06,005,06005,0,11404,6248,25.5,2.7,60.6,NA,NA,NA,NA,NA
 Butte Sheriff's Department,2018,3,Butte County,06,007,06007,NA,47707,6065,12,5,29,NA,NA,NA,NA,NA
@@ -9,28 +66,28 @@ Del Norte Sheriff's Department,2018,3,Del Norte County,06,015,06015,1,17881,9225
 El Dorado Sheriff's Department,2018,3,El Dorado County,06,017,06017,1,28301,13327,20.1,8.4,57.9,NA,NA,NA,NA,NA
 Fresno Sheriff's Department,2018,3,Fresno County,06,019,06019,12,NA,NA,36.7,25.3,30.9,NA,NA,NA,NA,NA
 Glenn Sheriff's Department,2018,3,Glenn County,06,021,06021,0,5741,309,46,37,42,NA,NA,NA,NA,NA
-Humboldt Sheriff's Department,2018,3,Humboldt County,06,023,06023,13,24598,25863,15.229999999999999,14.6,15.9,NA,NA,NA,NA,NA
-Imperial Sheriff's Department,2018,3,Imperial County,06,025,06025,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Inyo Sheriff's Department,2018,3,Inyo County,06,027,06027,2,NA,NA,225,156,69,NA,NA,NA,NA,NA
+Humboldt Sheriff's Department,2018,3,Humboldt County,06,023,06023,13,50462,25863,15.229999999999999,7,45,NA,NA,NA,NA,NA
+Imperial Sheriff's Department,2018,3,Imperial County,06,025,06025,2,17528,2679,NA,NA,NA,NA,NA,NA,NA,NA
+Inyo Sheriff's Department,2018,3,Inyo County,06,027,06027,2,25831,18370,225,156,69,NA,NA,NA,NA,NA
 Kern Sheriff's Department,2018,3,Kern County,06,029,06029,1,607598,103340,20.85,12.01,36.93,NA,NA,NA,NA,NA
 Kings Sheriff's Department,2018,3,Kings County,06,031,06031,6,61116,9217,NA,NA,NA,NA,NA,NA,NA,NA
 Lake Sheriff's Department,2018,3,Lake County,06,033,06033,NA,32069,5512,NA,NA,NA,NA,NA,NA,NA,NA
 Lassen Sheriff's Department,2018,3,Lassen County,06,035,06035,0,9270,1570,16.73,4.92,55.67,NA,NA,NA,NA,NA
-Los Angeles Sheriff's Department,2018,3,Los Angeles County,06,037,06037,NA,8658725,2493892,60,6,61,NA,NA,NA,NA,NA
+Los Angeles Sheriff's Department,2018,3,Los Angeles County,06,037,06037,NA,8564412,2671923,60,6,61,NA,NA,NA,NA,NA
 Madera Corrections Department,2018,3,Madera County,06,039,06039,3,31911,1494,22,6,46,NA,NA,NA,NA,NA
 Marin Sheriff's Department,2018,3,Marin County,06,041,06041,NA,89074,11832,18,12,43,NA,NA,NA,NA,NA
 Mariposa Sheriff's Department,2018,3,Mariposa County,06,043,06043,1,5935,1595,13.9,8.8,32,NA,NA,NA,NA,NA
 Mendocino Sheriff's Department,2018,3,Mendocino County,06,045,06045,5,37823,9098,NA,NA,NA,NA,NA,NA,NA,NA
 Merced Sheriff's Department,2018,3,Merced County,06,047,06047,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Modoc Sheriff's Department,2018,3,Modoc County,06,049,06049,3,12633,8384,163,126,37,NA,NA,NA,NA,NA
-Mono Sheriff's Department,2018,3,Mono County,06,051,06051,0,7307,0,158,118,40,NA,NA,NA,NA,NA
+Mono Sheriff's Department,2018,3,Mono County,06,051,06051,0,7307,NA,158,118,40,NA,NA,NA,NA,NA
 Monterey Sheriff's Department,2018,3,Monterey County,06,053,06053,0,63370,12729,27.5,21.6,36.8,NA,NA,NA,NA,NA
 Napa Corrections Department,2018,3,Napa County,06,055,06055,7,69057,31771,17,19,21,NA,NA,NA,NA,NA
 Nevada Sheriff's Department,2018,3,Nevada County,06,057,06057,NA,20636,5586,19,NA,NA,NA,NA,NA,NA,NA
 Orange Sheriff's Department,2018,3,Orange County,06,059,06059,22,1097257,138459,40.2,1.3,44.5,NA,NA,NA,NA,NA
 Placer Sheriff's Department,2018,3,Placer County,06,061,06061,8,114688,26920,NA,NA,NA,NA,NA,NA,NA,NA
 Plumas Sheriff's Department,2018,3,Plumas County,06,063,06063,2,9966,3001,11.6,12.1,9.7,NA,NA,NA,NA,NA
-Riverside Sheriff's Department,2018,3,Riverside County,06,065,06065,NA,639838,218657,26,NA,NA,NA,NA,NA,NA,NA
+Riverside Sheriff's Department,2018,3,Riverside County,06,065,06065,15,639838,218657,26,NA,NA,NA,NA,NA,NA,NA
 Sacramento Sheriff's Department,2018,3,Sacramento County,06,067,06067,31,1206797,345646,35,25,60,NA,NA,NA,NA,NA
 San Benito Sheriff's Department,2018,3,San Benito County,06,069,06069,1,8060,2915,21.1,9.9,50.8,NA,NA,NA,NA,NA
 San Bernardino Sheriff's Department,2018,3,San Bernardino County,06,071,06071,18,558027,158355,135,105,140,NA,NA,NA,NA,NA
@@ -44,9 +101,9 @@ Santa Barbara Sheriff's Department,2018,3,Santa Barbara County,06,083,06083,6,94
 Santa Clara Corrections Department,2018,3,Santa Clara County,06,085,06085,0,351658,198814,28,39,99,NA,NA,NA,NA,NA
 Santa Cruz Sheriff's Department,2018,3,Santa Cruz County,06,087,06087,10,59419,10194,NA,NA,NA,NA,NA,NA,NA,NA
 Shasta Sheriff's Department,2018,3,Shasta County,06,089,06089,8,24177,12135,NA,NA,NA,NA,NA,NA,NA,NA
-Siskiyou Sheriff's Department,2018,3,Siskiyou County,06,093,06093,0,NA,NA,40,4,36,NA,NA,NA,NA,NA
+Siskiyou Sheriff's Department,2018,3,Siskiyou County,06,093,06093,0,24302,16676,40,4,36,NA,NA,NA,NA,NA
 Solano Sheriff's Department,2018,3,Solano County,06,095,06095,8,149887,29588,18.3,5,70.6,NA,NA,NA,NA,NA
-Sonoma Sheriff's Department,2018,3,Sonoma County,06,097,06097,0,251245,152569,23,7,54,NA,NA,NA,NA,NA
+Sonoma Sheriff's Department,2018,3,Sonoma County,06,097,06097,0,251180,86039,23,7,54,NA,NA,NA,NA,NA
 Stanislaus Sheriff's Department,2018,3,Stanislaus County,06,099,06099,0,69618,14000,23,7,76,NA,NA,NA,NA,NA
 Sutter Sheriff's Department,2018,3,Sutter County,06,101,06101,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Tehama Sheriff's Department,2018,3,Tehama County,06,103,06103,0,51258,19932,21,NA,37,NA,NA,NA,NA,NA
@@ -87,7 +144,7 @@ Nevada Sheriff's Department,2018,2,Nevada County,06,057,06057,NA,33948.82,9731.9
 Orange Sheriff's Department,2018,2,Orange County,06,059,06059,29,904708,73981,38.1,1.4,41.7,NA,NA,NA,NA,NA
 Placer Sheriff's Department,2018,2,Placer County,06,061,06061,4,123192.52,28471.51,NA,NA,NA,NA,NA,NA,NA,NA
 Plumas Sheriff's Department,2018,2,Plumas County,06,063,06063,0,19412,3933,15.5,14.1,21.8,NA,NA,NA,NA,NA
-Riverside Sheriff's Department,2018,2,Riverside County,06,065,06065,NA,543963.22,191864.31999999998,30.4,NA,NA,NA,NA,NA,NA,NA
+Riverside Sheriff's Department,2018,2,Riverside County,06,065,06065,11,543963.22,191864.31999999998,30.4,NA,NA,NA,NA,NA,NA,NA
 Sacramento Sheriff's Department,2018,2,Sacramento County,06,067,06067,12,1173258,320474,37,29,60,NA,NA,NA,NA,NA
 San Benito Sheriff's Department,2018,2,San Benito County,06,069,06069,0,11772,3940,18,6,51,NA,NA,NA,NA,NA
 San Bernardino Sheriff's Department,2018,2,San Bernardino County,06,071,06071,5,636940.76,189711.25,117.67999999999999,109.82,137.60999999999999,NA,NA,NA,NA,NA
@@ -103,7 +160,7 @@ Santa Cruz Sheriff's Department,2018,2,Santa Cruz County,06,087,06087,7,67839,34
 Shasta Sheriff's Department,2018,2,Shasta County,06,089,06089,3,18424,8149,NA,NA,NA,NA,NA,NA,NA,NA
 Siskiyou Sheriff's Department,2018,2,Siskiyou County,06,093,06093,0,14502,13717,42,4,39,NA,NA,NA,NA,NA
 Solano Sheriff's Department,2018,2,Solano County,06,095,06095,11,118498,22299.41,16.7,NA,NA,NA,NA,NA,NA,NA
-Sonoma Sheriff's Department,2018,2,Sonoma County,06,097,06097,7,228957.37,133226.76,25,8,54,NA,NA,NA,NA,NA
+Sonoma Sheriff's Department,2018,2,Sonoma County,06,097,06097,7,228957,133226,25,8,54,NA,NA,NA,NA,NA
 Stanislaus Sheriff's Department,2018,2,Stanislaus County,06,099,06099,0,114427.72,31865.55,25,8,84,NA,NA,NA,NA,NA
 Sutter Sheriff's Department,2018,2,Sutter County,06,101,06101,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Tehama Sheriff's Department,2018,2,Tehama County,06,103,06103,1,49954,19921,21,NA,38,NA,NA,NA,NA,NA
@@ -135,7 +192,7 @@ Madera Corrections Department,2018,1,Madera County,06,039,06039,2,NA,NA,27,4,55,
 Marin Sheriff's Department,2018,1,Marin County,06,041,06041,NA,22987,NA,21,15,51,NA,NA,NA,NA,NA
 Mariposa Sheriff's Department,2018,1,Mariposa County,06,043,06043,1,10530.01,2173.9500000000003,NA,NA,NA,NA,NA,NA,NA,NA
 Mendocino Sheriff's Department,2018,1,Mendocino County,06,045,06045,3,27636.64,5483.89,NA,NA,NA,NA,NA,NA,NA,NA
-Merced Sheriff's Department,2018,1,Merced County,06,047,06047,47,19098.420000000002,23281.57,38.5,36.9,40.3,NA,NA,NA,NA,NA
+Merced Sheriff's Department,2018,1,Merced County,06,047,06047,47,NA,NA,38.5,36.9,40.3,NA,NA,NA,NA,NA
 Modoc Sheriff's Department,2018,1,Modoc County,06,049,06049,2,15456.25,11648.11,NA,NA,45,NA,NA,NA,NA,NA
 Mono Sheriff's Department,2018,1,Mono County,06,051,06051,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Monterey Sheriff's Department,2018,1,Monterey County,06,053,06053,0,52201.94,15133.949999999999,28.5,23.3,36.6,NA,NA,NA,NA,NA
@@ -160,7 +217,7 @@ Santa Cruz Sheriff's Department,2018,1,Santa Cruz County,06,087,06087,5,12483,82
 Shasta Sheriff's Department,2018,1,Shasta County,06,089,06089,3,15413,4595,NA,NA,NA,NA,NA,NA,NA,NA
 Siskiyou Sheriff's Department,2018,1,Siskiyou County,06,093,06093,0,NA,NA,32,5,28,NA,NA,NA,NA,NA
 Solano Sheriff's Department,2018,1,Solano County,06,095,06095,21,182083,28932,18.9,NA,NA,NA,NA,NA,NA,NA
-Sonoma Sheriff's Department,2018,1,Sonoma County,06,097,06097,3,291086,57151,26,9,57,NA,NA,NA,NA,NA
+Sonoma Sheriff's Department,2018,1,Sonoma County,06,097,06097,3,178152,50804,26,9,57,NA,NA,NA,NA,NA
 Stanislaus Sheriff's Department,2018,1,Stanislaus County,06,099,06099,0,94204,11345,26,9,81,NA,NA,NA,NA,NA
 Sutter Sheriff's Department,2018,1,Sutter County,06,101,06101,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Tehama Sheriff's Department,2018,1,Tehama County,06,103,06103,2,45137,22725,24,NA,35,NA,NA,NA,NA,NA
