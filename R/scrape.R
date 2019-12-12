@@ -1,5 +1,5 @@
 source(here::here('R/utils.R'))
-rD <- start_rsDriver(extraCapabilities = extraCapabilities)
+rD <- start_rsDriver()
 remDr <- rD$client
 
 get_jails("facility_monthly", 1, old_data = FALSE)
@@ -57,14 +57,15 @@ get_jails <- function(type, type_number, old_data = FALSE) {
       } else {
         month_from$elements[[1]]$clickElement()
       }
-      if (years$value[year] == "2018") {
-        month_to$elements[[12]]$clickElement()
+      # If most recent year, need to set most recent month available
+      if (years$value[year] == "2019") {
+        month_to$elements[[9]]$clickElement()
       }
     } else {
-      # Set ending quarter to quarter 4
+      # If most recent year, need to set most recent month available
       webElem <- remDr$findElement(using = "name", "Quarter_To")
       quarter_to <- selectTag(webElem)
-      quarter_to$elements[[4]]$clickElement()
+      quarter_to$elements[[3]]$clickElement()
 
       # Get starting quarter
       webElem <- remDr$findElement(using = "name", "Quarter_From")
@@ -77,7 +78,7 @@ get_jails <- function(type, type_number, old_data = FALSE) {
         quarter_from$elements[[1]]$clickElement()
       }
       if (years$value[year] == "2018") {
-        quarter_to$elements[[4]]$clickElement()
+        quarter_to$elements[[3]]$clickElement()
       }
     }
 
@@ -102,11 +103,13 @@ get_jails <- function(type, type_number, old_data = FALSE) {
                      value = 'body > form > table:nth-child(4) > tbody > tr > td:nth-child(4) > div > font > font > font:nth-child(3) > font > font > input[type="submit"]')
     Sys.sleep(60)
 
-    setwd(here::here("raw_data"))
+    setwd("C:/Users/user/Downloads")
 
-    files <- list.files(pattern = "QueryResult.xls")
-    file.rename(files, paste0(type, "_", years$value[year], ".xls"))
-
+    file_name <- paste0(type, "_", years$value[year], ".xls")
+    file.copy("QueryResult.xls", paste0(here::here("raw_data"), "/", file_name),
+              overwrite = TRUE)
+    # Need to remove or it'll just keep copying that first file.
+    file.remove("QueryResult.xls")
   }
 }
 

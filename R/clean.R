@@ -12,19 +12,19 @@ summary(california_jails_county_quarterly)
 
 setwd(here::here("clean_data"))
 save_files(california_jails_facility_monthly,
-           "_1995_2018",
+           "_1995_2019",
            file_name = "california_jail_facility_monthly",
            save_name = "california_jail_facility_monthly")
 save_files(california_jails_county_monthly,
-           "_1995_2018",
+           "_1995_2019",
            file_name = "california_jail_county_monthly",
            save_name = "california_jail_county_monthly")
 save_files(california_jails_county_quarterly,
-           "_1995_2018",
+           "_1995_2019",
            file_name = "california_jail_county_quarterly",
            save_name = "california_jail_county_quarterly")
 
-save_as_zip("california_jail_survey_1995_2018_")
+save_as_zip("california_jail_survey_1995_2019_")
 
 clean_jails <- function() {
 
