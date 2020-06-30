@@ -58,14 +58,14 @@ get_jails <- function(type, type_number, old_data = FALSE) {
         month_from$elements[[1]]$clickElement()
       }
       # If most recent year, need to set most recent month available
-      if (years$value[year] == "2019") {
-        month_to$elements[[9]]$clickElement()
+      if (years$value[year] == "2020") {
+        month_to$elements[[3]]$clickElement()
       }
     } else {
       # If most recent year, need to set most recent month available
       webElem <- remDr$findElement(using = "name", "Quarter_To")
       quarter_to <- selectTag(webElem)
-      quarter_to$elements[[3]]$clickElement()
+      quarter_to$elements[[4]]$clickElement()
 
       # Get starting quarter
       webElem <- remDr$findElement(using = "name", "Quarter_From")
@@ -77,8 +77,8 @@ get_jails <- function(type, type_number, old_data = FALSE) {
       } else {
         quarter_from$elements[[1]]$clickElement()
       }
-      if (years$value[year] == "2018") {
-        quarter_to$elements[[3]]$clickElement()
+      if (years$value[year] == "2020") {
+        quarter_to$elements[[1]]$clickElement()
       }
     }
 

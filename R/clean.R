@@ -12,19 +12,19 @@ summary(california_jails_county_quarterly)
 
 setwd(here::here("clean_data"))
 save_files(california_jails_facility_monthly,
-           "_1995_2019",
+           "_1995_2020",
            file_name = "california_jail_facility_monthly",
            save_name = "california_jail_facility_monthly")
 save_files(california_jails_county_monthly,
-           "_1995_2019",
+           "_1995_2020",
            file_name = "california_jail_county_monthly",
            save_name = "california_jail_county_monthly")
 save_files(california_jails_county_quarterly,
-           "_1995_2019",
+           "_1995_2020",
            file_name = "california_jail_county_quarterly",
            save_name = "california_jail_county_quarterly")
 
-save_as_zip("california_jail_survey_1995_2019_")
+save_as_zip("california_jail_survey_1995_2020_")
 
 clean_jails <- function() {
 
@@ -49,6 +49,7 @@ clean_jails <- function() {
                                         jurisdiction),
                     month = str_replace_all(month, month_fix)) %>%
       dplyr::bind_rows(facility)
+    facility$jurisdiction <- gsub("Sheriff.s", "Sheriff's", facility$jurisdiction)
 
     num_cols <- c(4:14, 16:34)
     if (i >= 8) num_cols <- c(4:14, 16:36)
@@ -67,6 +68,7 @@ clean_jails <- function() {
                     month                = parse_number(month),
                     month = str_replace_all(month, month_fix)) %>%
       dplyr::bind_rows(county_monthly)
+    county_monthly$jurisdiction <- gsub("Sheriff.s", "Sheriff's", county_monthly$jurisdiction)
 
     county_quarterly <-
       read_html(county_quarterly_files[i]) %>%
@@ -79,6 +81,7 @@ clean_jails <- function() {
       dplyr::mutate(jurisdiction = gsub("Dept.$", "Department",
                                         jurisdiction)) %>%
       dplyr::bind_rows(county_quarterly)
+    county_quarterly$jurisdiction <- gsub("Sheriff.s", "Sheriff's", county_quarterly$jurisdiction)
 
     message(i)
   }
